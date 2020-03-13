@@ -1,0 +1,7 @@
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\bin\Release\WTS.ServiceLayer.exe.config
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\bin\Release\WTS.ServiceLayer.exe
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\bin\Release\WTS.ServiceLayer.pdb
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\obj\Release\WTS.ServiceLayer.Properties.Resources.resources
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\obj\Release\WTS.ServiceLayer.csproj.GenerateResource.Cache
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\obj\Release\WTS.ServiceLayer.exe
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\obj\Release\WTS.ServiceLayer.pdb

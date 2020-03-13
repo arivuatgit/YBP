@@ -1,0 +1,40 @@
+F:\Sources\DFN\WTS.WebApplication\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe.config
+F:\Sources\DFN\WTS.WebApplication\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe
+F:\Sources\DFN\WTS.WebApplication\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.pdb
+F:\Sources\DFN\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.Properties.Resources.resources
+F:\Sources\DFN\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csproj.GenerateResource.Cache
+F:\Sources\DFN\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.exe
+F:\Sources\DFN\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.pdb
+F:\Sources\DFN\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csprojResolveAssemblyReference.cache
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe.config
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.pdb
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.Properties.Resources.resources
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csproj.GenerateResource.Cache
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.exe
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.pdb
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csprojResolveAssemblyReference.cache
+F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe.config
+F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe
+F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.pdb
+F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csprojResolveAssemblyReference.cache
+F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.Properties.Resources.resources
+F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csproj.GenerateResource.Cache
+F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.exe
+F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe.config
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.Properties.Resources.resources
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csproj.GenerateResource.Cache
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.pdb
+F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe.config
+F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.exe
+F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.ServiceLayer\bin\Debug\WTS.ServiceLayer.pdb
+F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csprojResolveAssemblyReference.cache
+F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.Properties.Resources.resources
+F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csproj.GenerateResource.Cache
+F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.exe
+F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.ServiceLayer\obj\Debug\WTS.ServiceLayer.csprojResolveAssemblyReference.cache

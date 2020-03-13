@@ -1,0 +1,15 @@
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.BusinessLogic\bin\Release\WTS.BusinessLogic.exe.config
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.BusinessLogic\bin\Release\WTS.BusinessLogic.exe
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.BusinessLogic\bin\Release\WTS.BusinessLogic.pdb
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.BusinessLogic\obj\Release\WTS.BusinessLogic.Properties.Resources.resources
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.BusinessLogic\obj\Release\WTS.BusinessLogic.csproj.GenerateResource.Cache
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.BusinessLogic\obj\Release\WTS.BusinessLogic.exe
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.BusinessLogic\obj\Release\WTS.BusinessLogic.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.BusinessLogic\bin\Release\WTS.BusinessLogic.exe.config
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.BusinessLogic\bin\Release\WTS.BusinessLogic.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.BusinessLogic\bin\Release\WTS.BusinessLogic.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.BusinessLogic\obj\Release\WTS.BusinessLogic.Properties.Resources.resources
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.BusinessLogic\obj\Release\WTS.BusinessLogic.csproj.GenerateResource.Cache
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.BusinessLogic\obj\Release\WTS.BusinessLogic.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.BusinessLogic\obj\Release\WTS.BusinessLogic.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.BusinessLogic\obj\Release\WTS.BusinessLogic.csprojResolveAssemblyReference.cache

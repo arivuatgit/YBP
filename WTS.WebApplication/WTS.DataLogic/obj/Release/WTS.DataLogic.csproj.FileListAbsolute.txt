@@ -1,0 +1,15 @@
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.DataLogic\bin\Release\WTS.DataLogic.exe.config
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.DataLogic\bin\Release\WTS.DataLogic.exe
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.DataLogic\bin\Release\WTS.DataLogic.pdb
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.DataLogic\obj\Release\WTS.DataLogic.Properties.Resources.resources
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.DataLogic\obj\Release\WTS.DataLogic.csproj.GenerateResource.Cache
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.DataLogic\obj\Release\WTS.DataLogic.exe
+F:\Sources\DFN\WebApp\WTS.WebApplication\WTS.DataLogic\obj\Release\WTS.DataLogic.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\bin\Release\WTS.DataLogic.exe.config
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\bin\Release\WTS.DataLogic.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\bin\Release\WTS.DataLogic.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Release\WTS.DataLogic.Properties.Resources.resources
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Release\WTS.DataLogic.csproj.GenerateResource.Cache
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Release\WTS.DataLogic.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Release\WTS.DataLogic.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Release\WTS.DataLogic.csprojResolveAssemblyReference.cache
