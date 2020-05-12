@@ -37,13 +37,6 @@ F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.DataLogic\obj\Deb
 F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.DataLogic\obj\Debug\WTS.DataLogic.csproj.GenerateResource.Cache
 F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.DataLogic\obj\Debug\WTS.DataLogic.exe
 F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.DataLogic\obj\Debug\WTS.DataLogic.pdb
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\bin\Debug\WTS.DataLogic.exe.config
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\bin\Debug\WTS.DataLogic.exe
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\bin\Debug\WTS.DataLogic.pdb
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Debug\WTS.DataLogic.Properties.Resources.resources
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Debug\WTS.DataLogic.csproj.GenerateResource.Cache
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Debug\WTS.DataLogic.exe
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Debug\WTS.DataLogic.pdb
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.DataLogic\bin\Debug\WTS.DataLogic.exe.config
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.DataLogic\bin\Debug\WTS.DataLogic.exe
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.DataLogic\bin\Debug\WTS.DataLogic.pdb
@@ -52,4 +45,11 @@ F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.DataLogic\obj\De
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.DataLogic\obj\Debug\WTS.DataLogic.csproj.GenerateResource.Cache
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.DataLogic\obj\Debug\WTS.DataLogic.exe
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.DataLogic\obj\Debug\WTS.DataLogic.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\bin\Debug\WTS.DataLogic.exe.config
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\bin\Debug\WTS.DataLogic.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\bin\Debug\WTS.DataLogic.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Debug\WTS.DataLogic.Properties.Resources.resources
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Debug\WTS.DataLogic.csproj.GenerateResource.Cache
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Debug\WTS.DataLogic.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Debug\WTS.DataLogic.pdb
 F:\Sources\YBP\Working\WTS.WebApplication\WTS.DataLogic\obj\Debug\WTS.DataLogic.csprojResolveAssemblyReference.cache

@@ -5,24 +5,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/slick/slick.css") %>" />
+       <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/slick/slick.css") %>" />
     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/slick/slick-theme.css") %>" />
     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/bootstrap.css") %>" />
-    <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/bootstrap-theme.css") %>" />
+     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/bootstrap-theme.css") %>" />
 
-    <link rel="shortcut icon" href="images/favicon.png" />
+     <link rel="shortcut icon" href="images/favicon.png" />
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/clear.css") %>" />
-    <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/common.css") %>" />
+     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/clear.css") %>" />
+    <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/common.css") %>"/>
     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/font-awesome.css") %>" />
     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/carouFredSel.css") %>" />
     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/clear.css") %>" />
     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/prettyPhoto.css") %>" />
     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/sm-clean.css") %>" />
     <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/style.css") %>" />
-
-
+         <link rel="stylesheet" type="text/css" href="<%=Page.ResolveClientUrl("~/assets/css/jQuery/jquery-ui-custom-mmsDialog.css") %>" />
+ 
     <style>
+      
         .portfolio_slider {
             margin: 60px auto;
             max-width: 1200px;
@@ -40,7 +41,6 @@
         .inner {
             padding: 6px;
         }
-
 
         .row {
             display: flex;
@@ -83,6 +83,28 @@
             width: 100%;
             height: 100%;
         }
+
+        .test {
+}
+.test + label {
+  display:none;
+  position:absolute;
+  top:0; right:0; bottom:0; left:0;
+  animation:fadein .5s;
+}
+.test:checked + label {
+  display:block;
+  background-color:rgba(0, 0, 0, .5);
+}
+@keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+       
     </style>
 </head>
 <body class="page">
@@ -91,7 +113,7 @@
         <tbody>
             <tr>
                 <td>
-                    <img src="<%=Page.ResolveClientUrl("~/assets/images/logo.png") %>" alt="Loading..." />
+                    <img src="<%=Page.ResolveClientUrl("~/assets/images/100x200_1grey.png") %>" alt="Loading..." />
                 </td>
             </tr>
         </tbody>
@@ -100,82 +122,122 @@
     <div class="header-search">
         <div class="content-1330 center-relative">
             <form class="search-form">
-                <label>
-                    <input type="search" class="search-field" placeholder="Search ..." value="" name="s" title="Search for:" />
-                </label>
+                 <%-- <label>
+                    <input type="search" class="search-field" placeholder="Search ..." value="" name="s" title="Search for:">
+                </label>--%>
+                <div>
+                    <label id="lblUserName" style="padding: 10px;">
+                        User Name : 
+                   <input type="text" style="height: 25px; border-radius: 5px;" />
+                    </label>
+                    <label id="lblPassword" style="padding: 10px;">
+                        Password : 
+                   <input type="text" style="height: 25px; border-radius: 5px;" />
+                    </label>
+                    <input id="btnSubmit" type="button" value="Submit" style="" />
+                </div>
             </form>
         </div>
     </div>
 
-    <div class="body-wrapper">
+    <div id="divBody" class="body-wrapper" >
         <div class="content-1330 header-holder center-relative">
-            <div class="header-logo left" style="background-color: #413934; width: 300px; text-align: center; margin-top: -5%;">
+              <div class="header-menu left" style="border: solid darkgray; border-radius: 10px;">
+               
+                   <nav id="header-main-menu-left" class="left">
+                <ul  class="main-menu sm sm-clean">
+                 <li class="">
+                        <a href="https://www.facebook.com/YellowBirdPhotographyIndia/">Facebook
+                            <img style="padding-left:5px;" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/fb-logo4.png")%>" />
+                        </a>
+                                             
+                    </li>
+                    <li>
+                         <a href="https://instagram.com/yellowbirdkidsphotography?igshid=17uxfhtdw542c">Instagram
+                             <img style="padding-left:5px;" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/insta-logo.png")%>" />
+                         </a>
+                    </li>
+                    </ul>
+                      </nav>
+            </div>
+            <div id="divHeaderLogo" class="header-logo left" style="">
 
                 <h1 class="site-title">
                     <a href="#">
-                        <img src="<%=Page.ResolveClientUrl("~/assets/images/logo.png") %>" alt="Yellowbird Photography" />
+                        <img src="<%=Page.ResolveClientUrl("~/assets/images/100x200_1grey.png") %>" alt="Yellowbird Photography" />
                     </a>
                 </h1>
 
             </div>
 
             <div class="header-menu right" style="border: solid darkgray; border-radius: 10px;">
-                <nav id="header-main-menu" class="left">
+              <nav id="header-main-menu" class="left">
                     <ul class="main-menu sm sm-clean">
                         <li>
-                            <a href="<%=Page.ResolveClientUrl("~/Default.aspx") %>">Home</a>
+                            <a href="<%= Page.ResolveClientUrl("~/Default.aspx") %>">Home</a>
 
                         </li>
 
                         <li>
-                            <a href="portfolio.html">Gallery</a>
+                            <a href="#">Gallery</a>
                             <ul class="sub-menu ">
                                 <li>
-                                    <a href="contact-map.html">New Born</a>
-
+                                     <a href="<%=Page.ResolveClientUrl("~/Gallery-2/Default.aspx") %>">New Born</a>
+                                   
                                 </li>
                                 <li>
-                                    <a href="contact-map.html">Maternity</a>
+                                     <a >Maternity</a>
                                     <ul class="sub-menu">
                                         <li>
-                                           <a href="<%=Page.ResolveClientUrl("~/Gallery-1/Indoor/G1IndoorDefault.aspx") %>">Indoor</a>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-1/Indoor/G1IndoorDefault.aspx") %>">Indoor</a>
                                         </li>
-                                        <li>
+                                          <li>
                                             <a href="#">Outdoor</a>
                                         </li>
-                                        <li>
-                                           <a href="<%=Page.ResolveClientUrl("~/Gallery-1/UnderWater/G1UnderwaterDefault.aspx") %>">Under water</a>
+                                          <li>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-1/UnderWater/G1UnderwaterDefault.aspx") %>">Under water</a>
                                         </li>
                                     </ul>
-
+                                   
                                 </li>
                                 <li>
                                     <a href="#">Kids</a>
                                     <ul class="sub-menu">
                                         <li>
-                                            <a>Indoor</a>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-3/Indoor/G3IndoorDefault.aspx") %>">Indoor</a>
                                         </li>
                                         <li>
-                                            <a>Outdoor</a>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-3/Outdoor/G3OutdoorDefault.aspx") %>">Outdoor</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#">Family</a>
+                                 <li>
+                                <a href="<%=Page.ResolveClientUrl("~/Gallery-4/Default.aspx") %>">Family</a>
                                 </li>
-                                <li>
+                                 <li>
                                     <a href="#">Birthday</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-5/BdayG1/Default.aspx") %>">Actor Barath kid's birthday</a>
+                                        </li>
+                                        <li>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-5/BdayG2/Default.aspx") %>">Aegan Birthday</a>
+                                        </li>
+                                         <li>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-5/BdayG3/Default.aspx") %>">Birthday at TAJ Connemara</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="blog.html">FAQ</a>
+                            <a href="<%=Page.ResolveClientUrl("/FAQ/Default.aspx") %>">FAQ</a>
                         </li>
                         <li>
-                            <a href="#">Blog</a>
+                            <a href="<%=Page.ResolveClientUrl("/BLOG/Default.aspx") %>">Blog</a>
                         </li>
                         <li>
-                            <a>Contact</a>
+                            <a >Contact</a>
                             <ul class="sub-menu">
                                 <li>
                                     <a href="https://goo.gl/maps/oTGnDMF9Ut7Kj17S9">Contact & Map</a>
@@ -195,64 +257,62 @@
         </div>
 
 
-        <div id="divImageGallery" style="width: 200px; height: 100px; background-color: rgb(234, 234, 234); padding: 10px; margin: 5%; border-radius: 10px;">
+        <div id="divImageGalleryOutdoor" style="width: 200px; height: 100px; background-color: rgb(234, 234, 234); padding: 10px; margin: 5%;border-radius: 10px;">
 
-            <div class="row">
+           <div class="row">
                 <div class="column">
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" data-toggle="modal" data-target="#myModal" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" />
-
+                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/_MG_9627.jpg") %>" />
+                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/_MG_9733.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/_MG_9751.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_0026.jpg") %>" />
+                    
+                      <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_9019.jpg") %>" />
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
+                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_0046.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_0213.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_1570.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_1769.jpg") %>" />
+                      <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_9033.jpg") %>" />
+                    
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Bday2.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg" ) %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg" ) %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" />
+                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_2431.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_2717.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_2759.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_4161.jpg") %>" />
+                      <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_9094.jpg") %>" />
                 </div>
                 <div class="column">
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Baby5.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" />
-                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" />
+                  <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_4202.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_4231.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_7536.jpg") %>" />
+                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_8986.jpg") %>" />
+                  
+                    
                 </div>
             </div>
-
+                      
         </div>
+        
 
-        <!--Footer-->
+       <!--Footer-->
 
         <footer class="footer">
             <div class="content-1330 center-relative">
                 <ul>
                     <li class="left-footer-content"><i class="fa fa-heart"></i>by <a href="http://drythemes.com">A² Infosystems</a>.            
                     </li>
-                    <li class="center-footer-content" style="background-color: #413934;">
+                    <li class="center-footer-content" style="">
                         <a href="#">
-                            <img src="<%=Page.ResolveClientUrl("~/assets/images/logo.png") %>" alt="Yellowbird Photography" />
+                            <img src="<%=Page.ResolveClientUrl("~/assets/images/100x200_1grey.png") %>" alt="Yellowbird Photography" />
                         </a>
                     </li>
                     <li class="right-footer-contnet">
                         <a href="https://www.facebook.com/Arivu-103408077924682/?modal=admin_todo_tour">Facebbok</a>
                         <a href="#">Instagram</a>
                         <a href="#">Youtube</a>
-                        <%-- <a href="#">Instagram</a>--%>
+                       <%-- <a href="#">Instagram</a>--%>
                     </li>
                     <li class="left-footer-content mobile">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -265,52 +325,73 @@
         </footer>
     </div>
 
-    <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog" style="width: 100%; height: auto;">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header" style="background: url(../../assets/images/box-with-bird.jpg) no-repeat; background-size: 100%; color: yellow;">
-                    <button type="button" class="close" style="color: #fff; opacity: 1" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Maternity</h4>
-                </div>
-                <div id="modalBody" class="modal-body">
-                    <%--<img class="img-thumbnail" src="" alt="" style="width: 100%; height: auto;" />--%>
-
-                    <div id="divGallery1Slider" class="carousel slide" data-ride="carousel">
-
-                        <div class="carousel-inner">
-                            <div id="divImgActive" class="item active">
+    <div id="G1OutdoorModal" style="display:none;margin:0 auto;overflow:auto;">
+    
+                    <div id="divGallery1Slider" title="You can drag and resize window" class="carousel slide" data-ride="carousel" style="">
+                       
+                         <div class="carousel-inner">
+                            <div id="divImgActive" class="item">
                                 <a href="#">
-                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Mat1.jpg") %>" /></a>
-                                <%-- <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
-      </div>--%>
+                                    <img id="imgActive" class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_1570.jpg") %>" /></a>
+                              
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Parent1.jpg") %>" /></a>
+                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_1769.jpg") %>" /></a>
+                              
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/NB4.jpg") %>" alt="" /></a>
+                                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_2431.jpg") %>" /></a>
+                              
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Event3.jpg") %>" alt="" /></a>
+                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_2717.jpg") %>" /></a>
+                               
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Baby5.jpg") %>" alt="" /></a>
+                                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_2759.jpg") %>" /></a>
+                              
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/Bday2.jpg") %>" alt="" /></a>
-
+                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_4161.jpg") %>" /></a>
+                              
                             </div>
+                              <div class="item">
+                                <a href="#">
+                                       <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_4202.jpg") %>" /></a>
+                               </div>
+                             <div class="item">
+                                <a href="#">
+                                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_4231.jpg") %>" /></a>
+                               </div>
+                             <div class="item">
+                                <a href="#">
+                                      <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_7536.jpg") %>" /></a>
+                               </div>
+                             <div class="item">
+                                <a href="#">
+                                      <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_8986.jpg") %>" /></a>
+                               </div>
+                             <div class="item">
+                                <a href="#">
+                                    <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_9019.jpg") %>" /></a>
+                               </div>
+                             <div class="item">
+                                <a href="#">
+                                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_9033.jpg") %>" /></a>
+                               </div>
+                             <div class="item">
+                                <a href="#">
+                                     <img class="thumbnail" src="<%=Page.ResolveClientUrl("~/assets/images/Maternity/Outdoor/IMG_9094.jpg") %>" /></a>
+                               </div>
+                            
                         </div>
 
+                 
                         <a class="left carousel-control" href="#divGallery1Slider" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                         </a>
@@ -319,11 +400,8 @@
                         </a>
                     </div>
 
-                </div>
 
-            </div>
-
-        </div>
+                 
     </div>
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -344,18 +422,20 @@
     <script src="<%=Page.ResolveClientUrl("~/assets/js/main.js")%>"></script>
     <script src="<%=Page.ResolveClientUrl("~/assets/PageJs/gallery1.js")%>"></script>
     <script src="<%=Page.ResolveClientUrl("~/assets/js/bootstrap.js")%>"></script>
-      <script src="<%=Page.ResolveClientUrl("~/assets/js/modal.js")%>"></script>
+      <script src="<%=Page.ResolveClientUrl("~/assets/PageJs/modal.js")%>"></script>
+    <script src="<%=Page.ResolveClientUrl("~/assets/js/jQuery/jquery-ui-custom-mmsDialog.js")%>"></script>
+    
+
     <script>
 
         $(document).on('ready', function () {
 
-            var div = $('#divImageGallery');
+         
+            var div = $('#divImageGalleryOutdoor');
             div.animate({ height: '90%', opacity: '0.4' }, "slow");
             div.animate({ width: '90%', opacity: '1' }, "slow");
 
-
-            var WindowWidth = $(window).width();
-
+         
         });
 
     </script>

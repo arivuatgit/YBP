@@ -37,3 +37,17 @@ F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\Microsoft.CodeDom.Provid
 F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\obj\Release\WTS.WebUI.csprojResolveAssemblyReference.cache
 F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\obj\Release\WTS.WebUI.dll
 F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\obj\Release\WTS.WebUI.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\csc.exe.config
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\csc.rsp
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\csi.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\csi.rsp
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\System.AppContext.dll
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\System.IO.FileSystem.dll
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\vbc.exe.config
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.WebUI\bin\roslyn\vbc.rsp

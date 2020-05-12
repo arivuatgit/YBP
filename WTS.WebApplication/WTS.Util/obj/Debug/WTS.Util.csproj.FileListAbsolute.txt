@@ -37,13 +37,6 @@ F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.Util\obj\Debug\WT
 F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.Util\obj\Debug\WTS.Util.csproj.GenerateResource.Cache
 F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.Util\obj\Debug\WTS.Util.exe
 F:\Sources\DFN\Only Live\RTMP\WTS.WebApplication-only Live\WTS.Util\obj\Debug\WTS.Util.pdb
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\bin\Debug\WTS.Util.exe.config
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\bin\Debug\WTS.Util.exe
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\bin\Debug\WTS.Util.pdb
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\obj\Debug\WTS.Util.Properties.Resources.resources
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\obj\Debug\WTS.Util.csproj.GenerateResource.Cache
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\obj\Debug\WTS.Util.exe
-F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\obj\Debug\WTS.Util.pdb
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.Util\bin\Debug\WTS.Util.exe.config
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.Util\bin\Debug\WTS.Util.exe
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.Util\bin\Debug\WTS.Util.pdb
@@ -52,4 +45,11 @@ F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.Util\obj\Debug\W
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.Util\obj\Debug\WTS.Util.csproj.GenerateResource.Cache
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.Util\obj\Debug\WTS.Util.exe
 F:\Sources\YBP\Working\Copies\WTS.WebApplication - 20200215\WTS.Util\obj\Debug\WTS.Util.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\bin\Debug\WTS.Util.exe.config
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\bin\Debug\WTS.Util.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\bin\Debug\WTS.Util.pdb
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\obj\Debug\WTS.Util.Properties.Resources.resources
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\obj\Debug\WTS.Util.csproj.GenerateResource.Cache
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\obj\Debug\WTS.Util.exe
+F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\obj\Debug\WTS.Util.pdb
 F:\Sources\YBP\Working\WTS.WebApplication\WTS.Util\obj\Debug\WTS.Util.csprojResolveAssemblyReference.cache

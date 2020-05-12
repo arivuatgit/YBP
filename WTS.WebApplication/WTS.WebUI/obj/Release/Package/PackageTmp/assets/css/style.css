@@ -709,7 +709,7 @@ div.pp_default .pp_loaderIcon {
 
 .footer {
     /*margin-top: 260px;*/
-    padding-bottom: 170px;
+    /*padding-bottom: 170px;*/
     clear: both;
 }
 
@@ -915,7 +915,7 @@ li.left-footer-content.mobile {
 
     .header-holder {
         padding-top: 120px;
-        padding-bottom: 120px;
+        /*padding-bottom: 120px;*/
     }
 
     .blog-top-content.page-desc {
@@ -943,7 +943,7 @@ li.left-footer-content.mobile {
     }
 
     .footer {
-        margin-top: 170px;
+        /*margin-top: 170px;*/
     }
 }
 
@@ -1292,24 +1292,25 @@ li.left-footer-content.mobile {
 
     #header-main-menu ul ul li a:hover {
         color: yellow !important;
-        background: url(/assets/images/box-with-bird.jpg) no-repeat;
+        background: url(../images/box-with-bird.jpg) no-repeat;
          
         background-size: 100% 100%;
     }
 
 #divBody {
-    background: url(../images/HomePage/NB2.jpg) no-repeat center center fixed;
+    background: url(../images/IMG_1605ab.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /*background-color:azure;*/
 }
 #videoWrapper{
     text-align: right; 
     margin: 10px;
 }
 #portfolio{
-    margin-top:25%;
+    /*margin-top:10%;*/
 }
 #btnSubmit
 {
@@ -1317,4 +1318,15 @@ li.left-footer-content.mobile {
 }
 #btnSubmit :hover{
     color:red;
+}
+.carousel-inner a >img{
+    cursor:default;
+}
+#divHeaderLogo{
+    width: 300px; 
+    text-align: right; 
+    margin-top: -3%;
+}
+#divImageGallery{
+
 }

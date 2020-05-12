@@ -33,7 +33,7 @@
           
             <div class="navbar-brand" style="text-align:center;" >
           
-                <img src="/assets/images/logo.png" style="margin-top:-25%;" alt="kids photography" />
+                <img src="/assets/images/100x200_1grey.png" style="margin-top:-25%;" alt="kids photography" />
             </div>
           </div>
 

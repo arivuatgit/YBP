@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -71,8 +71,8 @@
       <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -103,8 +103,10 @@
     <Content Include="assets\css\carouFredSel.css" />
     <Content Include="assets\css\clear.css" />
     <Content Include="assets\css\common.css" />
+    <Content Include="assets\css\faq.css" />
     <Content Include="assets\css\font-awesome.css" />
     <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\homepage.css" />
     <Content Include="assets\css\img\bx_loader.gif" />
     <Content Include="assets\css\img\controls.png" />
     <Content Include="assets\css\isotope.css" />
@@ -142,10 +144,11 @@
     <Content Include="assets\css\style.css" />
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\images\100x200_1black.png" />
+    <Content Include="assets\images\100x200_1grey.png" />
     <Content Include="assets\images\1500x50-2.jpg" />
     <Content Include="assets\images\5.jpg" />
     <Content Include="assets\images\6.jpg" />
-    <Content Include="assets\images\9.jpg" />
     <Content Include="assets\images\about\man1.jpg" />
     <Content Include="assets\images\about\man2.jpg" />
     <Content Include="assets\images\about\man3.jpg" />
@@ -177,39 +180,129 @@
     <Content Include="assets\images\box-with-bird.jpg" />
     <Content Include="assets\images\close.svg" />
     <Content Include="assets\images\favicon.png" />
+    <Content Include="assets\images\HomePage\abt1.jpg" />
     <Content Include="assets\images\HomePage\Baby1.jpg" />
     <Content Include="assets\images\HomePage\Baby2.jpg" />
     <Content Include="assets\images\HomePage\Baby3.jpg" />
     <Content Include="assets\images\HomePage\Baby4.jpg" />
     <Content Include="assets\images\HomePage\Baby5.jpg" />
+    <Content Include="assets\images\HomePage\baby6.jpg" />
+    <Content Include="assets\images\HomePage\baby7.jpg" />
+    <Content Include="assets\images\HomePage\baby8.jpg" />
     <Content Include="assets\images\HomePage\Bday1.jpg" />
     <Content Include="assets\images\HomePage\Bday2.jpg" />
+    <Content Include="assets\images\HomePage\bday3.jpg" />
     <Content Include="assets\images\HomePage\Event2.jpg" />
     <Content Include="assets\images\HomePage\Event3.jpg" />
+    <Content Include="assets\images\HomePage\Family1.jpg" />
     <Content Include="assets\images\HomePage\FN1.jpg" />
+    <Content Include="assets\images\HomePage\kid-out-1.jpg" />
+    <Content Include="assets\images\HomePage\kid-out-2.jpg" />
     <Content Include="assets\images\HomePage\mat-2.jpg" />
+    <Content Include="assets\images\HomePage\mat-in-1.jpg" />
+    <Content Include="assets\images\HomePage\mat-in-2.jpg" />
+    <Content Include="assets\images\HomePage\mat-in-3.jpg" />
+    <Content Include="assets\images\HomePage\mat-in-4.jpg" />
+    <Content Include="assets\images\HomePage\mat-out-2.jpg" />
+    <Content Include="assets\images\HomePage\mat-out-3.jpg" />
+    <Content Include="assets\images\HomePage\mat-out-4.jpg" />
+    <Content Include="assets\images\HomePage\mat-out-5.jpg" />
+    <Content Include="assets\images\HomePage\mat-out-6.jpg" />
+    <Content Include="assets\images\HomePage\mat-out-7.jpg" />
+    <Content Include="assets\images\HomePage\mat-sp-1.jpg" />
+    <Content Include="assets\images\HomePage\mat-sp-2.jpg" />
     <Content Include="assets\images\HomePage\Mat1.jpg" />
+    <Content Include="assets\images\HomePage\mat3.jpg" />
     <Content Include="assets\images\HomePage\NB1.jpg" />
+    <Content Include="assets\images\HomePage\nb10 - Copy.jpg" />
+    <Content Include="assets\images\HomePage\nb10.jpg" />
     <Content Include="assets\images\HomePage\NB2.jpg" />
     <Content Include="assets\images\HomePage\NB3.jpg" />
     <Content Include="assets\images\HomePage\NB4.jpg" />
+    <Content Include="assets\images\HomePage\nb5.jpg" />
+    <Content Include="assets\images\HomePage\nb6.jpg" />
+    <Content Include="assets\images\HomePage\nb7.jpg" />
+    <Content Include="assets\images\HomePage\nb8.jpg" />
+    <Content Include="assets\images\HomePage\nb9.jpg" />
     <Content Include="assets\images\HomePage\Parent1.jpg" />
+    <Content Include="assets\images\HomePage\_MG_9741.jpg" />
     <Content Include="assets\images\logo-a2.png" />
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\logo1 - Copy.png" />
     <Content Include="assets\images\logo1.png" />
     <Content Include="assets\images\logo2 - Copy.png" />
     <Content Include="assets\images\logo2.png" />
-    <Content Include="assets\images\Maternity-Home\mat-in-1.jpg" />
-    <Content Include="assets\images\Maternity-Home\mat-in-2.jpg" />
-    <Content Include="assets\images\Maternity-Home\mat-out-1.jpg" />
-    <Content Include="assets\images\Maternity-Home\mat-out-2.jpg" />
-    <Content Include="assets\images\Maternity-Home\mat-out-3.jpg" />
-    <Content Include="assets\images\Maternity-Home\mat-sp-1.jpg" />
-    <Content Include="assets\images\Maternity-Home\mat-sp-2.jpg" />
-    <Content Include="assets\images\Maternity-Home\Mat-uw-1.jpg" />
+    <Content Include="assets\images\Maternity\Home\mat-in-1.jpg" />
+    <Content Include="assets\images\Maternity\Home\mat-in-2.jpg" />
+    <Content Include="assets\images\Maternity\Home\mat-out-1.jpg" />
+    <Content Include="assets\images\Maternity\Home\mat-out-2.jpg" />
+    <Content Include="assets\images\Maternity\Home\mat-out-3.jpg" />
+    <Content Include="assets\images\Maternity\Home\mat-sp-1.jpg" />
+    <Content Include="assets\images\Maternity\Home\mat-sp-2.jpg" />
+    <Content Include="assets\images\Maternity\Home\Mat-uw-1.jpg" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_0090.jpg" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_0311.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_1695.jpg" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_2249.jpg" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_2285.jpg" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_4102.jpg" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_4183.jpg" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_4349.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_4643.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_4673.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_4700.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_4724.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_7357.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_7405.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_7588.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\IMG_7613.JPG" />
+    <Content Include="assets\images\Maternity\Indoor\_MG_0018.jpg" />
+    <Content Include="assets\images\Maternity\Indoor\_MG_3874.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_0026.JPG" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_0046.JPG" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_0213.JPG" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_1570.JPG" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_1769.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_2431.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_2717.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_2759.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_4161.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_4202.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_4231.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_7536.JPG" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_8986.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_9019.JPG" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_9033.JPG" />
+    <Content Include="assets\images\Maternity\Outdoor\IMG_9094.JPG" />
+    <Content Include="assets\images\Maternity\Outdoor\_MG_9627.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\_MG_9733.jpg" />
+    <Content Include="assets\images\Maternity\Outdoor\_MG_9751.jpg" />
     <Content Include="assets\images\nav_left.svg" />
     <Content Include="assets\images\nav_right.svg" />
+    <Content Include="assets\images\NewBorn\IMG_1172.jpg" />
+    <Content Include="assets\images\NewBorn\IMG_1175.jpg" />
+    <Content Include="assets\images\NewBorn\IMG_1305.jpg" />
+    <Content Include="assets\images\NewBorn\IMG_1307.jpg" />
+    <Content Include="assets\images\NewBorn\IMG_3328.jpg" />
+    <Content Include="assets\images\NewBorn\IMG_3385.jpg" />
+    <Content Include="assets\images\NewBorn\IMG_3394.jpg" />
+    <Content Include="assets\images\NewBorn\IMG_3419.jpg" />
+    <Content Include="assets\images\NewBorn\IMG_3437.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_8848.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_8849.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9617.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9631.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9636.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9650.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9655.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9667.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9680.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9709.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9711.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9740.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9741.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9770.jpg" />
+    <Content Include="assets\images\NewBorn\_MG_9772.jpg" />
     <Content Include="assets\images\no-photo.png" />
     <Content Include="assets\images\portfolio\full\item1.png" />
     <Content Include="assets\images\portfolio\full\item10.png" />
@@ -318,11 +411,16 @@
     <Content Include="assets\js\jQuery\jquery-ui-custom-mmsDialog.js" />
     <Content Include="assets\js\jQuery_3.4.1.js" />
     <Content Include="assets\js\main.js" />
-    <Content Include="assets\js\respond.min.js" />
+    <Content Include="assets\PageJs\gallery3.js" />
+    <Content Include="assets\PageJs\gallery4.js" />
+    <Content Include="assets\PageJs\gallery5.js" />
+    <Content Include="Gallery-1\Outdoor\respond.min.js" />
     <Content Include="assets\js\slick\slick.js" />
     <Content Include="assets\js\slick\slick.min.js" />
     <Content Include="assets\js\wow.min.js" />
+    <Content Include="assets\PageJs\faq.js" />
     <Content Include="assets\PageJs\gallery1.js" />
+    <Content Include="assets\PageJs\gallery2.js" />
     <Content Include="assets\PageJs\homepage.js" />
     <Content Include="assets\PageJs\LoginPage.js" />
     <Content Include="assets\PageJs\modal.js" />
@@ -334,6 +432,9 @@
     <Content Include="Gallery-1\UnderWater\G1UnderwaterDefault.aspx" />
     <Content Include="Gallery-3\Indoor\G3IndoorDefault.aspx" />
     <Content Include="Gallery-3\Outdoor\G3OutdoorDefault.aspx" />
+    <Content Include="Gallery-5\BdayG1\Default.aspx" />
+    <Content Include="Gallery-5\BdayG2\Default.aspx" />
+    <Content Include="Gallery-5\BdayG3\Default.aspx" />
     <Content Include="Gallery-6\Default.aspx" />
     <Content Include="Gallery-5\Default.aspx" />
     <Content Include="Gallery-4\Default.aspx" />
@@ -432,6 +533,27 @@
     <Compile Include="Gallery-3\Outdoor\G3OutdoorDefault.aspx.designer.cs">
       <DependentUpon>G3OutdoorDefault.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Gallery-5\BdayG1\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery-5\BdayG1\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery-5\BdayG2\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery-5\BdayG2\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery-5\BdayG3\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery-5\BdayG3\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Gallery-6\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -483,7 +605,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="assets\images\Maternity\Underwater\" />
     <Folder Include="assets\jQuery\" />
+    <Folder Include="assets\js\faq\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WTS.BusinessLogic\WTS.BusinessLogic.csproj">
@@ -529,7 +653,7 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -117,7 +117,7 @@
         <tbody>
             <tr>
                 <td>
-                    <img src="/assets/images/logo.png" alt="Loading..."/>
+                    <img src="/assets/images/100x200_1grey.png" alt="Loading..."/>
                 </td>
             </tr>
         </tbody>
@@ -126,20 +126,49 @@
     <div class="header-search">
         <div class="content-1330 center-relative">
             <form class="search-form">
-                <label>
-                    <input type="search" class="search-field" placeholder="Search ..." value="" name="s" title="Search for:"/>
-                </label>
+                 <%-- <label>
+                    <input type="search" class="search-field" placeholder="Search ..." value="" name="s" title="Search for:">
+                </label>--%>
+                <div>
+                    <label id="lblUserName" style="padding: 10px;">
+                        User Name : 
+                   <input type="text" style="height: 25px; border-radius: 5px;" />
+                    </label>
+                    <label id="lblPassword" style="padding: 10px;">
+                        Password : 
+                   <input type="text" style="height: 25px; border-radius: 5px;" />
+                    </label>
+                    <input id="btnSubmit" type="button" value="Submit" style="" />
+                </div>
             </form>
         </div>
     </div>
     
         <div class="body-wrapper">
          <div class="content-1330 header-holder center-relative">
-            <div class="header-logo left" style="background-color:#413934; width: 300px; text-align: center; margin-top: -5%;">
+               <div class="header-menu left" style="border: solid darkgray; border-radius: 10px;">
+               
+                  <nav id="header-main-menu-left" class="left">
+                <ul  class="main-menu sm sm-clean">
+                 <li class="">
+                        <a href="#">Facebook
+                            <img style="padding-left:5px;" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/fb-logo4.png")%>" />
+                        </a>
+                                             
+                    </li>
+                    <li>
+                         <a href="#">Instagram
+                             <img style="padding-left:5px;" src="<%=Page.ResolveClientUrl("~/assets/images/HomePage/insta-logo.png")%>" />
+                         </a>
+                    </li>
+                    </ul>
+                      </nav>
+            </div>
+            <div id="divHeaderLogo" class="header-logo left" style="">
 
                 <h1 class="site-title">
                     <a href="#">
-                        <img src="/assets/images/logo.png" alt="Yellowbird Photography" />
+                        <img src="/assets/images/100x200_1grey.png" alt="Yellowbird Photography" />
                     </a>
                 </h1>
 
@@ -191,6 +220,17 @@
                                 </li>
                                 <li>
                                     <a href="#">Birthday</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-5/BdayG1/Default.aspx") %>">Actor Barath kid's birthday</a>
+                                        </li>
+                                        <li>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-5/BdayG2/Default.aspx") %>">Aegan Birthday</a>
+                                        </li>
+                                         <li>
+                                            <a href="<%=Page.ResolveClientUrl("~/Gallery-5/BdayG3/Default.aspx") %>">Birthday at TAJ Connemara</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
